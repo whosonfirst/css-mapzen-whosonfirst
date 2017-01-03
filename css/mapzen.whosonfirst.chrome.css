@@ -18,3 +18,11 @@
 .wof-host:before {
     content: "this is not prod – this is ";
 }
+
+@media print {
+    
+    .wof-host {
+	display:none !important;
+    }
+    
+}
